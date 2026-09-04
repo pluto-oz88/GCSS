@@ -24,7 +24,7 @@
     <h1>GCSS Framework</h1>
 
     <p>
-      Graham Whiz Bank CSS Framework
+      Graham Whiz Bang CSS Framework
       <br>
       Version 1.0
     </p>
