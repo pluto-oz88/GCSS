@@ -1,0 +1,247 @@
+/*=============================================
+    GCSS CUSTOM PROPERTIES
+=============================================*/
+
+/*=============================================
+    COLOURS
+=============================================*/
+
+:root {
+  color-scheme: light;
+/* 
+
+/* FALLBACK COLORS  */
+
+  --bg-value: #2312e2;
+
+  /*
+  --surface-value: #ffffff;
+  --surface-alt-value: #eee4d6;
+
+  --text-value: #2d241b;
+  --text-light-value: #6f6254;
+  --text-inverse-value: #ffffff;
+
+  --primary-value: #2f6f5e;
+  --secondary-value: #9b6b3d;
+  --accent-value: #d8a43b;
+
+  --success-value: #2e8b57;
+  --warning-value: #f5a623;
+  --danger-value: #d64545;
+  --info-value: #2196f3;
+
+  --text-on-success-value: #ffffff;
+  --text-on-warning-value: #ffffff;
+  --text-on-danger-value: #ffffff;
+  --text-on-info-value: #ffffff;
+
+  --border-value: #ddd0bf;
+  --border-light-value: #eee4d6;
+
+  --dn-icon-light-value: #ffffff;
+  --dn-icon-dark-value: #111111;
+  --dn-icon-sun-value: #f2c94c; */
+
+
+
+
+  --bg: var(--bg-value, beige);
+  --surface: var(--surface-value, white);
+  --surface-alt: var(--surface-alt-value, bisque);
+
+  --text: var(--text-value, brown);
+  --text-light: var(--text-light-value, gray);
+  --text-inverse: var(--text-inverse-value, white);
+
+  --primary: var(--primary-value, green);
+  --secondary: var(--secondary-value, brown);
+  --accent: var(--accent-value, gold);
+
+  --success: var(--success-value, green);
+  --warning: var(--warning-value, orange);
+  --danger: var(--danger-value, red);
+  --info: var(--info-value, blue);
+
+  --text-on-success: var(--text-on-success-value, white);
+  --text-on-warning: var(--text-on-warning-value, white);
+  --text-on-danger: var(--text-on-danger-value, white);
+  --text-on-info: var(--text-on-info-value, white);
+
+  --border: var(--border-value, tan);
+  --border-light: var(--border-light-value, beige);
+
+  --dn-icon-light: var(--dn-icon-light-value, white);
+  --dn-icon-dark: var(--dn-icon-dark-value, black);
+  --dn-icon-sun: var(--dn-icon-sun-value, yellow);
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+
+  /* FALLBACK COLORS  */
+
+/*
+
+  --bg-value: #12100d;
+  --surface-value: #1d1914;
+  --surface-alt-value: #2a241d;
+
+  --text-value: #f5efe6;
+  --text-light-value: #c4b8a8;
+  --text-inverse-value: #12100d;
+
+  --primary-value: #75bda8;
+  --secondary-value: #d0a06e;
+  --accent-value: #f0b94f;
+
+  --success-value: #69c38d;
+  --warning-value: #ffc45c;
+  --danger-value: #ff7a7a;
+  --info-value: #70bfff;
+
+  --text-on-success-value: #12100d;
+  --text-on-warning-value: #12100d;
+  --text-on-danger-value: #12100d;
+  --text-on-info-value: #12100d;
+
+  --border-value: #3a3127;
+  --border-light-value: #2a241d;
+
+  --dn-icon-light-value: #fff7e8;
+  --dn-icon-dark-value: #0e0d0b;
+  --dn-icon-sun-value: #ffd966;
+
+  */
+
+  --bg: var(--bg-value, black);
+  --surface: var(--surface-value, black);
+  --surface-alt: var(--surface-alt-value, gray);
+
+  --text: var(--text-value, white);
+  --text-light: var(--text-light-value, gray);
+  --text-inverse: var(--text-inverse-value, black);
+
+  --primary: var(--primary-value, green);
+  --secondary: var(--secondary-value, tan);
+  --accent: var(--accent-value, gold);
+
+  --success: var(--success-value, green);
+  --warning: var(--warning-value, orange);
+  --danger: var(--danger-value, red);
+  --info: var(--info-value, blue);
+
+  --text-on-success: var(--text-on-success-value, black);
+  --text-on-warning: var(--text-on-warning-value, black);
+  --text-on-danger: var(--text-on-danger-value, black);
+  --text-on-info: var(--text-on-info-value, black);
+
+  --border: var(--border-value, gray);
+  --border-light: var(--border-light-value, gray);
+
+  --dn-icon-light: var(--dn-icon-light-value, white);
+  --dn-icon-dark: var(--dn-icon-dark-value, black);
+  --dn-icon-sun: var(--dn-icon-sun-value, yellow);
+}
+
+/*=============================================
+    FONTS
+=============================================*/
+
+:root {
+  --transparent: transparent;
+  --shadow-color-strong: rgb(0 0 0 / 0.25);
+
+  --font-body:
+    system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial,
+    sans-serif;
+
+  --font-heading: inherit;
+
+  --font-mono: Consolas, Monaco, monospace;
+
+  /*=============================================
+    FONT SIZES
+=============================================*/
+
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: 1.25rem;
+  --fs-2xl: 1.5rem;
+  --fs-3xl: 2rem;
+  --fs-4xl: 3rem;
+
+  /*=============================================
+    SPACING
+=============================================*/
+
+  --space-0: 0;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+  --space-9: 6rem;
+
+  /*=============================================
+    BORDER RADIUS
+=============================================*/
+
+  --radius-sm: 4px;
+  --radius: 8px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-round: 999px;
+
+  /*=============================================
+    SHADOWS
+=============================================*/
+
+  --shadow-sm: 0 2px 4px rgb(0 0 0 / 0.08);
+
+  --shadow: 0 6px 18px rgb(0 0 0 / 0.12);
+
+  --shadow-lg: 0 12px 32px rgb(0 0 0 / 0.18);
+
+  /*=============================================
+    TRANSITIONS
+=============================================*/
+
+  --transition-fast: 0.15s;
+  --transition: 0.3s;
+  --transition-slow: 0.6s;
+
+  /*=============================================
+    WIDTHS
+=============================================*/
+
+  --container-sm: 700px;
+  --container-md: 1000px;
+  --container-lg: 1280px;
+  --container-xl: 1440px;
+
+  /*=============================================
+    Z INDEX
+=============================================*/
+
+  --z-dropdown: 100;
+  --z-sticky: 500;
+  --z-modal: 1000;
+  --z-tooltip: 2000;
+
+  /*=============================================
+    FLOATING CONTROLS
+=============================================*/
+
+  --floating-size: 48px;
+  --floating-offset: 20px;
+  --floating-radius: 50%;
+
+  --floating-transition: 0.3s;
+}

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#f8f5ee"/>
+
+  <circle cx="256" cy="256" r="228" fill="#f8f5ee" stroke="#16483d" stroke-width="18"/>
+
+  <text x="256" y="292"
+        text-anchor="middle"
+        font-family="Georgia, serif"
+        font-size="270"
+        font-weight="700"
+        fill="#16483d">G</text>
+
+  <rect x="255" y="230" width="135" height="26" fill="#c49a35"/>
+  <polygon points="390,230 420,230 390,256" fill="#c49a35"/>
+
+  <text x="256" y="390"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="58"
+        font-weight="500"
+        letter-spacing="22"
+        fill="#16483d">GCSS</text>
+
+  <line x1="200" y1="424" x2="312" y2="424"
+        stroke="#c49a35"
+        stroke-width="10"
+        stroke-linecap="round"/>
+</svg>

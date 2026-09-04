@@ -1,0 +1,53 @@
+/*==================================================
+    dn TOGGLE
+==================================================*/
+
+.dn-toggle {
+  position: fixed;
+  top: var(--floating-offset);
+  left: var(--floating-offset);
+  width: var(--floating-size);
+  height: var(--floating-size);
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-radius: var(--floating-radius);
+  background: var(--transparent);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: var(--z-modal);
+}
+
+.dn-icon {
+  width: var(--floating-size);
+  height: var(--floating-size);
+  flex: 0 0 var(--floating-size);
+  display: block;
+  line-height: 0;
+}
+
+.dn-icon svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  pointer-events: none;
+  transition:
+    transform var(--floating-transition),
+    filter var(--floating-transition);
+}
+
+.dn-toggle:hover .dn-icon {
+  transform: scale(1.12);
+  filter: drop-shadow(0 4px 10px var(--shadow-color-strong));
+}
+
+.dn-toggle:active .dn-icon {
+  transform: scale(0.95);
+}
+
+.dn-toggle:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 4px;
+}
